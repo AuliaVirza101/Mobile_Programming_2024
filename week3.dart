@@ -66,4 +66,30 @@ void main() {
 //Perlu menambahkan perintah untuk mengubah nilai 'index'agar tidak terjadi infinite loop
 //Langkah 3
 //terjadi error karena penggunaan huruf kapital yang tidak tepat dan penempatan perintah continue yang tidak tepat
+
+//Bilangan Prima
+  // Nama lengkap dan NIM
+  String namaLengkap = "Virza Aulia";
+  String nim = "2241720078";
+
+  print("Bilangan prima dari 0 sampai 201:");
+
+  for (int i = 0; i <= 201; i++) {
+    // Angka kurang dari 2 bukan bilangan prima
+    if (i < 2) continue;
+    bool isPrime = true;
+
+    // Cek apakah i dapat dibagi dengan bilangan selain 1 dan dirinya sendiri
+    for (int j = 2; j < (i - 1); j++) {
+      if (i % j == 0) {
+        isPrime = false;
+        break;
+      }
+    }
+
+    // Jika isPrime masih true, berarti i adalah bilangan prima
+    if (isPrime) {
+      print("$i $namaLengkap, NIM: $nim");
+    }
+  }
 }
