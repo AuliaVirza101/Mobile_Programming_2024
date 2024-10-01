@@ -1,12 +1,12 @@
-##Practicum 1 - Creating new Flutter projecct
+##  - Creating new Flutter projecct
 ![alt text](image.png)!
 
 
-##Practicum 2 - New Flutter Project 
+##  - New Flutter Project 
 ![alt text](image-2.png)
 
 
-##Practicum 3 - Widget
+##  - Widget
 
 ### 1.Text Widget
 
@@ -18,3 +18,21 @@ Call then Run,Boom W flutter
 
 ### 2.Image widget
 
+![alt text](image-5.png)
+
+### 3.Image with Text Widget (assign3)
+
+![alt text](image-6.png)
+
+##  Practicum 5
+## - Scaffold 
+
+![alt text](image-7.png)
+
+## - Dialog (Alert)
+
+![alt text](image-8.png)
+
+## - Input and Selection Widget
+
+![alt text](image-9.png)
